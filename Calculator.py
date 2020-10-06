@@ -28,6 +28,7 @@ root = Tk()
 root.geometry("546x672")
 root.title("Calculator by Hacker Hunter")
 root.minsize(546, 672)
+root.configure("skyblue")
 
 scr = StringVar()
 scr.set("")
